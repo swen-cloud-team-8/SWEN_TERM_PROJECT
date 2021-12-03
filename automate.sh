@@ -6,4 +6,5 @@ terraform init
 terraform apply
 chmod u+x test.sh
 sed -i -e 's/\r$//' test.sh
+read -p "Press enter to continue"
 ./test.sh
