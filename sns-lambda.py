@@ -20,7 +20,7 @@ def lambda_handler(event, context):
    
     # print(url)
     sns_response = sns.publish(
-        TargetArn='arn:aws:sns:us-east-1:193337023362:crowd_lambda',
+        TargetArn='arn:aws:sns:us-east-1:876301500839:crowd_lambda',
         Message= str(url),
         Subject= "TestSubject"
         )
